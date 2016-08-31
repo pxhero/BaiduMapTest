@@ -88,7 +88,7 @@ public class MainActivity extends Activity {
 		  MapStatusUpdate u = MapStatusUpdateFactory.newLatLng(ll);
           baiduMap.animateMapStatus(u); 
           
-        //  标注（Marker）是开发者最常使用的地图覆盖物之一
+          //  标注（Marker）是开发者最常使用的地图覆盖物之一 modify
           //准备 marker 的图片  
           BitmapDescriptor bitmapDescriptor = BitmapDescriptorFactory.fromResource(R.drawable.location_overlay);
           //准备 marker option 添加 marker 使用  
